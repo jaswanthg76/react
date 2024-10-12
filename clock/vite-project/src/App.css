@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./assets/images.jpg'); /* or './assets/images.jpg' */
+  background-size: cover;                      /* Ensure the image covers the entire page */
+  background-position: center;                 /* Center the background image */
+  background-repeat: no-repeat;                /* Prevent background image from repeating */
+  background-attachment: fixed;                /* Keeps the image fixed when scrolling */
+
+  display: flex;                               /* Enable Flexbox */
+  justify-content: center;                     /* Horizontally center the content */
+  align-items: center;                         /* Vertically center the content */
+  min-height: 100vh;                           /* Ensure the body always takes full viewport height */
+}
+
+.digital-clock-container {
+  display: flex;                               /* Flexbox for centering */
+  justify-content: center;                     /* Center clock horizontally inside container */
+  align-items: center;                         /* Center clock vertically inside container */
+  background: rgb(160, 213, 222);        /* Semi-transparent background to make text stand out */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(248, 246, 246, 0.2);    /* Optional shadow for better visibility */
+}
+
+.clock {
+  font-size: 5rem;                             /* Larger font size */
+  color: #000000;                                 /* Set the text color */
+  font-family: 'Arial', sans-serif;            /* Set the font for the time */
+}
+.root{
+  box-shadow: 0 4px 8px rgba(192, 190, 190, 0.986);    /* Optional shadow for better visibility */
+
+}
